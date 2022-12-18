@@ -1,0 +1,37 @@
+{
+  "total" : 3,
+  "items" : [ {
+    "uid" : "b5b859936248aa42c3a0eb1447c8bb92",
+    "name" : "test_case.addresscenter",
+    "statistic" : {
+      "failed" : 7,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 9
+    }
+  }, {
+    "uid" : "9a453a3e9af6982ba808b162cbb97767",
+    "name" : "test_case.goodscenter",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 9,
+      "unknown" : 0,
+      "total" : 10
+    }
+  }, {
+    "uid" : "005f33523bdd4666392c173b229bbb0f",
+    "name" : "test_case.usercenter",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 16,
+      "unknown" : 0,
+      "total" : 16
+    }
+  } ]
+}

@@ -1,0 +1,473 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "收获地址操作中心",
+    "children" : [ {
+      "name" : "获取收货地址",
+      "children" : [ {
+        "name" : "获取收货地址操作",
+        "uid" : "7587afeab33c40a4",
+        "parentUid" : "21a37d59790039c8d883e3a75cd54e06",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357624269,
+          "stop" : 1671357624368,
+          "duration" : 99
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21a37d59790039c8d883e3a75cd54e06"
+    }, {
+      "name" : "添加收货地址",
+      "children" : [ {
+        "name" : "添加收货地址操作",
+        "uid" : "beb7a71c6157dc19",
+        "parentUid" : "8db9d826db4036a108e43cdb35a46acf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357624379,
+          "stop" : 1671357624548,
+          "duration" : 169
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': 'add_time'}" ]
+      }, {
+        "name" : "添加收货地址操作",
+        "uid" : "6c682bec70e39ea",
+        "parentUid" : "8db9d826db4036a108e43cdb35a46acf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357624562,
+          "stop" : 1671357624727,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': None, 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': '省份不能为空'}" ]
+      }, {
+        "name" : "添加收货地址操作",
+        "uid" : "4415389da52ec827",
+        "parentUid" : "8db9d826db4036a108e43cdb35a46acf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357624787,
+          "stop" : 1671357624942,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': None, 'district': '龙华区', 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': '市区不能为空'}" ]
+      }, {
+        "name" : "添加收货地址操作",
+        "uid" : "4ae66d054691769f",
+        "parentUid" : "8db9d826db4036a108e43cdb35a46acf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357624953,
+          "stop" : 1671357625342,
+          "duration" : 389
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': None, 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': 'test3'}" ]
+      }, {
+        "name" : "添加收货地址操作",
+        "uid" : "a8a381a5594e936a",
+        "parentUid" : "8db9d826db4036a108e43cdb35a46acf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357625352,
+          "stop" : 1671357625522,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': None, 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': 'test4'}" ]
+      }, {
+        "name" : "添加收货地址操作",
+        "uid" : "26688e8e22125e68",
+        "parentUid" : "8db9d826db4036a108e43cdb35a46acf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357625533,
+          "stop" : 1671357625694,
+          "duration" : 161
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': None, 'signer_name': '小马', 'expected': 'test5'}" ]
+      }, {
+        "name" : "添加收货地址操作",
+        "uid" : "fce741e7f95424f9",
+        "parentUid" : "8db9d826db4036a108e43cdb35a46acf",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357625705,
+          "stop" : 1671357625869,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': None, 'expected': 'test6'}" ]
+      } ],
+      "uid" : "8db9d826db4036a108e43cdb35a46acf"
+    }, {
+      "name" : "删除收获地址",
+      "children" : [ {
+        "name" : "删除收获地址操作",
+        "uid" : "5ccfb71b30b5a9a1",
+        "parentUid" : "4fc905d1b7bb411f21190a1c9994a241",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357625883,
+          "stop" : 1671357626079,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "parameters" : [ "{'address_id': None}" ]
+      } ],
+      "uid" : "4fc905d1b7bb411f21190a1c9994a241"
+    } ],
+    "uid" : "bfc7dc7a994f9015741087a9487a8e62"
+  }, {
+    "name" : "商品操作中心",
+    "children" : [ {
+      "name" : "查询商品",
+      "children" : [ {
+        "name" : "查询商品列表",
+        "uid" : "6290c509f083c9a0",
+        "parentUid" : "8704997db7f11b42629a49ab3ad7e279",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357626121,
+          "stop" : 1671357626189,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8704997db7f11b42629a49ab3ad7e279"
+    }, {
+      "name" : "购物车相关",
+      "children" : [ {
+        "name" : "添加购物车操作",
+        "uid" : "619841d88e0eb0ba",
+        "parentUid" : "1a9e8a65ed8b5cc08a8dd196c0ba5632",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357626197,
+          "stop" : 1671357626362,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': 3, 'goods': 66, 'expected': None}" ]
+      }, {
+        "name" : "添加购物车操作",
+        "uid" : "5a3c70ac89ed01d0",
+        "parentUid" : "1a9e8a65ed8b5cc08a8dd196c0ba5632",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357626370,
+          "stop" : 1671357626436,
+          "duration" : 66
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': 0, 'goods': 66, 'expected': '商品数量不能小于1'}" ]
+      }, {
+        "name" : "添加购物车操作",
+        "uid" : "e5dd6101a75a6103",
+        "parentUid" : "1a9e8a65ed8b5cc08a8dd196c0ba5632",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357626445,
+          "stop" : 1671357626504,
+          "duration" : 59
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': 3, 'goods': None, 'expected': '该字段不能为 null。'}" ]
+      }, {
+        "name" : "添加购物车操作",
+        "uid" : "77c8bf74063598cb",
+        "parentUid" : "1a9e8a65ed8b5cc08a8dd196c0ba5632",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357626513,
+          "stop" : 1671357626581,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': '-**', 'goods': 66, 'expected': '请填写合法的整数值。'}" ]
+      } ],
+      "uid" : "1a9e8a65ed8b5cc08a8dd196c0ba5632"
+    }, {
+      "name" : "下单相关",
+      "children" : [ {
+        "name" : "下单操作",
+        "uid" : "a5728e08cd0999d",
+        "parentUid" : "a62ed016ecc26fa90036d29969f29c03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357626591,
+          "stop" : 1671357626976,
+          "duration" : 385
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': 1, 'goods': 66, 'post_script': '测试', 'order_mount': None, 'address': None, 'signer_name': '小马', 'singer_mobile': None, 'expected': 'order_sn'}" ]
+      }, {
+        "name" : "下单操作",
+        "uid" : "bc54d61c2ac01c87",
+        "parentUid" : "a62ed016ecc26fa90036d29969f29c03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357626984,
+          "stop" : 1671357627130,
+          "duration" : 146
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': 1, 'goods': 66, 'post_script': '测试', 'order_mount': -100, 'address': None, 'signer_name': '小马', 'singer_mobile': None, 'expected': '该字段不能为 null。'}" ]
+      }, {
+        "name" : "下单操作",
+        "uid" : "810ef4f640845321",
+        "parentUid" : "a62ed016ecc26fa90036d29969f29c03",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357627140,
+          "stop" : 1671357627376,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': 1, 'goods': 66, 'post_script': '测试', 'order_mount': -100, 'address': '我擦', 'signer_name': '小马', 'singer_mobile': None, 'expected': '数量必须大于0'}" ]
+      }, {
+        "name" : "下单操作",
+        "uid" : "df74632b3b834f06",
+        "parentUid" : "a62ed016ecc26fa90036d29969f29c03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357627388,
+          "stop" : 1671357627526,
+          "duration" : 138
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': 1, 'goods': 66, 'post_script': '测试', 'order_mount': -100, 'address': '我擦', 'signer_name': None, 'singer_mobile': None, 'expected': '该字段不能为 null。'}" ]
+      }, {
+        "name" : "下单操作",
+        "uid" : "aa9f2db729ef38d7",
+        "parentUid" : "a62ed016ecc26fa90036d29969f29c03",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357627537,
+          "stop" : 1671357627673,
+          "duration" : 136
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': 1, 'goods': 66, 'post_script': None, 'order_mount': -100, 'address': '我擦', 'signer_name': '小马', 'singer_mobile': None, 'expected': '该字段不能为 null。'}" ]
+      } ],
+      "uid" : "a62ed016ecc26fa90036d29969f29c03"
+    } ],
+    "uid" : "defc663d5b04a130382c067a8079219d"
+  }, {
+    "name" : "用户中心模块",
+    "children" : [ {
+      "name" : "用户注册获取验证码",
+      "children" : [ {
+        "name" : "注册手机号获取验证码",
+        "uid" : "70a70e961fcf44b4",
+        "parentUid" : "abf21d70e2c12bf5aaf2f1acfc54eda4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357627682,
+          "stop" : 1671357627768,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': '15397919581', 'expected': '15397919581'}" ]
+      }, {
+        "name" : "注册手机号获取验证码",
+        "uid" : "958080fca7cbc67b",
+        "parentUid" : "abf21d70e2c12bf5aaf2f1acfc54eda4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357627777,
+          "stop" : 1671357627860,
+          "duration" : 83
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': '15397919581', 'expected': '距离上次发送未超过1分钟'}" ]
+      }, {
+        "name" : "注册手机号获取验证码",
+        "uid" : "849d08007c77735b",
+        "parentUid" : "abf21d70e2c12bf5aaf2f1acfc54eda4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357627869,
+          "stop" : 1671357627947,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': '1539791958', 'expected': '手机号码非法'}" ]
+      }, {
+        "name" : "注册手机号获取验证码",
+        "uid" : "5cd295a653873f5e",
+        "parentUid" : "abf21d70e2c12bf5aaf2f1acfc54eda4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357627956,
+          "stop" : 1671357628021,
+          "duration" : 65
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': '153979195868', 'expected': '请确保这个字段不能超过 11 个字符。'}" ]
+      }, {
+        "name" : "注册手机号获取验证码",
+        "uid" : "21f4bc77f5f191a8",
+        "parentUid" : "abf21d70e2c12bf5aaf2f1acfc54eda4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357628029,
+          "stop" : 1671357628109,
+          "duration" : 80
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': None, 'expected': '手机号码非法'}" ]
+      }, {
+        "name" : "注册手机号获取验证码",
+        "uid" : "1dc78e70d7b7ee3e",
+        "parentUid" : "abf21d70e2c12bf5aaf2f1acfc54eda4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357628118,
+          "stop" : 1671357628203,
+          "duration" : 85
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': '该字段不能为空', 'expected': '手机号码非法'}" ]
+      } ],
+      "uid" : "abf21d70e2c12bf5aaf2f1acfc54eda4"
+    }, {
+      "name" : "用户注册后登入",
+      "children" : [ {
+        "name" : "用户注册",
+        "uid" : "8b6ef739679694c9",
+        "parentUid" : "c69093d99f4d6103cb7d03785a49f101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357628215,
+          "stop" : 1671357628647,
+          "duration" : 432
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': 15397919588, 'pwd': 123456, 'expected': 'token'}" ]
+      }, {
+        "name" : "用户注册",
+        "uid" : "51d867f2ea4c0f63",
+        "parentUid" : "c69093d99f4d6103cb7d03785a49f101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357628661,
+          "stop" : 1671357629071,
+          "duration" : 410
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': 15397919588, 'pwd': 123456, 'expected': '请先获取验证码'}" ]
+      }, {
+        "name" : "用户注册",
+        "uid" : "c6852ef11e600692",
+        "parentUid" : "c69093d99f4d6103cb7d03785a49f101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357629080,
+          "stop" : 1671357629422,
+          "duration" : 342
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': 15397919588, 'pwd': None, 'expected': '该字段不能为 null。'}" ]
+      }, {
+        "name" : "用户注册",
+        "uid" : "69c76086043a394e",
+        "parentUid" : "c69093d99f4d6103cb7d03785a49f101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357629433,
+          "stop" : 1671357629789,
+          "duration" : 356
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': 15397919588, 'pwd': 123, 'expected': '密码格式错误'}" ]
+      }, {
+        "name" : "用户注册",
+        "uid" : "7d720b30d154988f",
+        "parentUid" : "c69093d99f4d6103cb7d03785a49f101",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357629798,
+          "stop" : 1671357630217,
+          "duration" : 419
+        },
+        "flaky" : false,
+        "parameters" : [ "{'mobile': 15397919588, 'pwd': 123456, 'expected': '验证码过期'}" ]
+      } ],
+      "uid" : "c69093d99f4d6103cb7d03785a49f101"
+    }, {
+      "name" : "用户登入",
+      "children" : [ {
+        "name" : "用户手机登入",
+        "uid" : "5fd8bb9f8c013f1c",
+        "parentUid" : "14fc26e5b45ef088cda3d22549b8e42b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357630226,
+          "stop" : 1671357630417,
+          "duration" : 191
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 15000000002, 'password': 123456, 'expected': 'token'}" ]
+      }, {
+        "name" : "用户手机登入",
+        "uid" : "bf9a0f23ed6b07d3",
+        "parentUid" : "14fc26e5b45ef088cda3d22549b8e42b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357630426,
+          "stop" : 1671357630610,
+          "duration" : 184
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 15000000002, 'password': 12345, 'expected': '无法使用提供的认证信息登录'}" ]
+      }, {
+        "name" : "用户手机登入",
+        "uid" : "13c8a2820bbb2db9",
+        "parentUid" : "14fc26e5b45ef088cda3d22549b8e42b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357630619,
+          "stop" : 1671357630681,
+          "duration" : 62
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 15000000002, 'password': None, 'expected': '该字段不能为 null。'}" ]
+      }, {
+        "name" : "用户手机登入",
+        "uid" : "1e047d39bc7d3382",
+        "parentUid" : "14fc26e5b45ef088cda3d22549b8e42b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357630690,
+          "stop" : 1671357630758,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': None, 'password': 123456, 'expected': '该字段不能为 null。'}" ]
+      }, {
+        "name" : "用户手机登入",
+        "uid" : "12a6478d2b21fd8c",
+        "parentUid" : "14fc26e5b45ef088cda3d22549b8e42b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1671357630767,
+          "stop" : 1671357630881,
+          "duration" : 114
+        },
+        "flaky" : false,
+        "parameters" : [ "{'username': 15397919589, 'password': 123456, 'expected': '无法使用提供的认证信息登录'}" ]
+      } ],
+      "uid" : "14fc26e5b45ef088cda3d22549b8e42b"
+    } ],
+    "uid" : "08fe44f2f6133ffdf8eac85ba357a26a"
+  } ]
+}

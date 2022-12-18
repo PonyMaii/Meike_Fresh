@@ -1,0 +1,91 @@
+test_add_address:
+-
+  addr: 
+  area: 
+  province: 广东省
+  city: 深圳市
+  district: 龙华区
+  address: 龙华
+  phone:
+  receiveName:
+  signer_mobile: 15397919586
+  signer_name: 小马
+  expected: add_time
+-
+  addr:
+  area:
+  province:
+  city: 深圳市
+  district: 龙华区
+  address: 龙华
+  phone:
+  receiveName:
+  signer_mobile: 15397919586
+  signer_name: 小马
+  expected: 省份不能为空
+-
+  addr:
+  area:
+  province: 广东省
+  city:
+  district: 龙华区
+  address: 龙华
+  phone:
+  receiveName:
+  signer_mobile: 15397919586
+  signer_name: 小马
+  expected: 市区不能为空
+-
+  addr:
+  area:
+  province: 广东省
+  city: 深圳市
+  district:
+  address: 龙华
+  phone:
+  receiveName:
+  signer_mobile: 15397919586
+  signer_name: 小马
+  expected: test3
+-
+  addr:
+  area:
+  province: 广东省
+  city: 深圳市
+  district: 龙华区
+  address:
+  phone:
+  receiveName:
+  signer_mobile: 15397919586
+  signer_name: 小马
+  expected: test4
+-
+  addr:
+  area:
+  province: 广东省
+  city: 深圳市
+  district: 龙华区
+  address: 龙华
+  phone:
+  receiveName:
+  signer_mobile:
+  signer_name: 小马
+  expected: test5
+-
+  addr:
+  area:
+  province: 广东省
+  city: 深圳市
+  district: 龙华区
+  address: 龙华
+  phone:
+  receiveName:
+  signer_mobile: 15397919586
+  signer_name:
+  expected: test6
+
+
+
+test_del_address:
+-
+  address_id:

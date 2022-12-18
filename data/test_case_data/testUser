@@ -1,0 +1,82 @@
+mobile_belong: { shouji: 13456755448, appkey: 0c818521d38759e1 }
+
+mobile_belong_post:
+  # 手机号，appkey
+  - [ 13456755448,0c818521d38759e1 ]
+
+mobile_belong_get:
+  # 手机号，appkey
+  - [ 13456755448,0c818521d38759e1 ]
+  - [ 13000000000,0c818521d38759e1 ]
+
+json_data: { title: foo,body: bar,userId: 1 }
+
+test_send_code:
+-
+  mobile: '15397919581'
+  expected: '15397919581'
+-
+  mobile: '15397919581'
+  expected: 距离上次发送未超过1分钟
+-
+  mobile: '1539791958'
+  expected: 手机号码非法
+-
+  mobile: '153979195868'
+  expected: 请确保这个字段不能超过 11 个字符。
+-
+  mobile:
+  expected: 手机号码非法
+-
+  mobile: 该字段不能为空
+  expected: 手机号码非法
+
+test_register:
+-
+  mobile: 15397919588
+  pwd: 123456
+  expected: token
+-
+  mobile: 15397919588
+  pwd: 123456
+  expected: 请先获取验证码
+-
+  mobile: 15397919588
+  pwd:
+  expected: 该字段不能为 null。
+-
+  mobile: 15397919588
+  pwd: 123
+  expected: 密码格式错误
+-
+  mobile: 15397919588
+  pwd: 123456
+  expected: 验证码过期
+
+test_login:
+  # 手机号，密码
+-
+  username: 15000000002
+  password: 123456
+  expected: token
+-
+  username: 15000000002
+  password: 12345
+  expected: 无法使用提供的认证信息登录
+-
+  username: 15000000002
+  password:
+  expected: 该字段不能为 null。
+-
+  username:
+  password: 123456
+  expected: 该字段不能为 null。
+-
+  username: 15397919589
+  password: 123456
+  expected: 无法使用提供的认证信息登录
+
+fixture_login:
+  username: 15397919586
+  password: 123456
+

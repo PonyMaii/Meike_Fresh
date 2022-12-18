@@ -1,0 +1,351 @@
+[ {
+  "uid" : "5fd8bb9f8c013f1c",
+  "name" : "用户手机登入",
+  "time" : {
+    "start" : 1671357630226,
+    "stop" : 1671357630417,
+    "duration" : 191
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4415389da52ec827",
+  "name" : "添加收货地址操作",
+  "time" : {
+    "start" : 1671357624787,
+    "stop" : 1671357624942,
+    "duration" : 155
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "810ef4f640845321",
+  "name" : "下单操作",
+  "time" : {
+    "start" : 1671357627140,
+    "stop" : 1671357627376,
+    "duration" : 236
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6852ef11e600692",
+  "name" : "用户注册",
+  "time" : {
+    "start" : 1671357629080,
+    "stop" : 1671357629422,
+    "duration" : 342
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12a6478d2b21fd8c",
+  "name" : "用户手机登入",
+  "time" : {
+    "start" : 1671357630767,
+    "stop" : 1671357630881,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "619841d88e0eb0ba",
+  "name" : "添加购物车操作",
+  "time" : {
+    "start" : 1671357626197,
+    "stop" : 1671357626362,
+    "duration" : 165
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7d720b30d154988f",
+  "name" : "用户注册",
+  "time" : {
+    "start" : 1671357629798,
+    "stop" : 1671357630217,
+    "duration" : 419
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6290c509f083c9a0",
+  "name" : "查询商品列表",
+  "time" : {
+    "start" : 1671357626121,
+    "stop" : 1671357626189,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "958080fca7cbc67b",
+  "name" : "注册手机号获取验证码",
+  "time" : {
+    "start" : 1671357627777,
+    "stop" : 1671357627860,
+    "duration" : 83
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69c76086043a394e",
+  "name" : "用户注册",
+  "time" : {
+    "start" : 1671357629433,
+    "stop" : 1671357629789,
+    "duration" : 356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5cd295a653873f5e",
+  "name" : "注册手机号获取验证码",
+  "time" : {
+    "start" : 1671357627956,
+    "stop" : 1671357628021,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26688e8e22125e68",
+  "name" : "添加收货地址操作",
+  "time" : {
+    "start" : 1671357625533,
+    "stop" : 1671357625694,
+    "duration" : 161
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8a381a5594e936a",
+  "name" : "添加收货地址操作",
+  "time" : {
+    "start" : 1671357625352,
+    "stop" : 1671357625522,
+    "duration" : 170
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "51d867f2ea4c0f63",
+  "name" : "用户注册",
+  "time" : {
+    "start" : 1671357628661,
+    "stop" : 1671357629071,
+    "duration" : 410
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ccfb71b30b5a9a1",
+  "name" : "删除收获地址操作",
+  "time" : {
+    "start" : 1671357625883,
+    "stop" : 1671357626079,
+    "duration" : 196
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "70a70e961fcf44b4",
+  "name" : "注册手机号获取验证码",
+  "time" : {
+    "start" : 1671357627682,
+    "stop" : 1671357627768,
+    "duration" : 86
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf9a0f23ed6b07d3",
+  "name" : "用户手机登入",
+  "time" : {
+    "start" : 1671357630426,
+    "stop" : 1671357630610,
+    "duration" : 184
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77c8bf74063598cb",
+  "name" : "添加购物车操作",
+  "time" : {
+    "start" : 1671357626513,
+    "stop" : 1671357626581,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5728e08cd0999d",
+  "name" : "下单操作",
+  "time" : {
+    "start" : 1671357626591,
+    "stop" : 1671357626976,
+    "duration" : 385
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bc54d61c2ac01c87",
+  "name" : "下单操作",
+  "time" : {
+    "start" : 1671357626984,
+    "stop" : 1671357627130,
+    "duration" : 146
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13c8a2820bbb2db9",
+  "name" : "用户手机登入",
+  "time" : {
+    "start" : 1671357630619,
+    "stop" : 1671357630681,
+    "duration" : 62
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4ae66d054691769f",
+  "name" : "添加收货地址操作",
+  "time" : {
+    "start" : 1671357624953,
+    "stop" : 1671357625342,
+    "duration" : 389
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b6ef739679694c9",
+  "name" : "用户注册",
+  "time" : {
+    "start" : 1671357628215,
+    "stop" : 1671357628647,
+    "duration" : 432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c682bec70e39ea",
+  "name" : "添加收货地址操作",
+  "time" : {
+    "start" : 1671357624562,
+    "stop" : 1671357624727,
+    "duration" : 165
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "849d08007c77735b",
+  "name" : "注册手机号获取验证码",
+  "time" : {
+    "start" : 1671357627869,
+    "stop" : 1671357627947,
+    "duration" : 78
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1dc78e70d7b7ee3e",
+  "name" : "注册手机号获取验证码",
+  "time" : {
+    "start" : 1671357628118,
+    "stop" : 1671357628203,
+    "duration" : 85
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21f4bc77f5f191a8",
+  "name" : "注册手机号获取验证码",
+  "time" : {
+    "start" : 1671357628029,
+    "stop" : 1671357628109,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e047d39bc7d3382",
+  "name" : "用户手机登入",
+  "time" : {
+    "start" : 1671357630690,
+    "stop" : 1671357630758,
+    "duration" : 68
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df74632b3b834f06",
+  "name" : "下单操作",
+  "time" : {
+    "start" : 1671357627388,
+    "stop" : 1671357627526,
+    "duration" : 138
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "beb7a71c6157dc19",
+  "name" : "添加收货地址操作",
+  "time" : {
+    "start" : 1671357624379,
+    "stop" : 1671357624548,
+    "duration" : 169
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7587afeab33c40a4",
+  "name" : "获取收货地址操作",
+  "time" : {
+    "start" : 1671357624269,
+    "stop" : 1671357624368,
+    "duration" : 99
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e5dd6101a75a6103",
+  "name" : "添加购物车操作",
+  "time" : {
+    "start" : 1671357626445,
+    "stop" : 1671357626504,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fce741e7f95424f9",
+  "name" : "添加收货地址操作",
+  "time" : {
+    "start" : 1671357625705,
+    "stop" : 1671357625869,
+    "duration" : 164
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa9f2db729ef38d7",
+  "name" : "下单操作",
+  "time" : {
+    "start" : 1671357627537,
+    "stop" : 1671357627673,
+    "duration" : 136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a3c70ac89ed01d0",
+  "name" : "添加购物车操作",
+  "time" : {
+    "start" : 1671357626370,
+    "stop" : 1671357626436,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

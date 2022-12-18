@@ -1,0 +1,64 @@
+test_shopping_cart:
+-
+  nums: 3
+  goods: 66
+  expected:
+-
+  nums: 0
+  goods: 66
+  expected: 商品数量不能小于1
+-
+  nums: 3
+  goods:
+  expected: 该字段不能为 null。
+-
+  nums: -**
+  goods: 66
+  expected: 请填写合法的整数值。
+
+test_add_order:
+-
+  nums: 1
+  goods: 66
+  post_script: 测试
+  order_mount:
+  address:
+  signer_name: 小马
+  singer_mobile:
+  expected: order_sn
+-
+  nums: 1
+  goods: 66
+  post_script: 测试
+  order_mount: -100
+  address:
+  signer_name: 小马
+  singer_mobile:
+  expected: 该字段不能为 null。
+-
+  nums: 1
+  goods: 66
+  post_script: 测试
+  order_mount: -100
+  address: 我擦
+  signer_name: 小马
+  singer_mobile:
+  expected: 数量必须大于0
+-
+  nums: 1
+  goods: 66
+  post_script: 测试
+  order_mount: -100
+  address: 我擦
+  signer_name:
+  singer_mobile:
+  expected: 该字段不能为 null。
+-
+  nums: 1
+  goods: 66
+  post_script:
+  order_mount: -100
+  address: 我擦
+  signer_name: 小马
+  singer_mobile:
+  expected: 该字段不能为 null。

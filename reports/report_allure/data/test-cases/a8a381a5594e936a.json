@@ -1,0 +1,103 @@
+{
+  "uid" : "a8a381a5594e936a",
+  "name" : "添加收货地址操作",
+  "fullName" : "test_case.addresscenter.test_address.TestAddress#test_add_address",
+  "historyId" : "e7fa98cf8d07167aa8d49ec0506d459f",
+  "time" : {
+    "start" : 1671357625352,
+    "stop" : 1671357625522,
+    "duration" : 170
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'test4' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+  "statusTrace" : "self = <test_case.addresscenter.test_address.TestAddress object at 0x000001F99F6ABB80>\ndatas = {'addr': None, 'address': None, 'area': None, 'city': '深圳市', ...}\n\n    @allure.story(\"添加收货地址\")\n    @allure.title(\"添加收货地址操作\")\n    @pytest.mark.parametrize(\"datas\", data['test_add_address'])\n    def test_add_address(self, datas):\n    \n        result = add_address(datas)\n        assert result.success is True\n        assert len(get_address().body) == get_address_num(os.environ['mobile'])\n    \n        # if datas['expected'] != \"add_time\":\n        #     del_address({\"address_id\": result.body[-1]['id']})\n>       assert datas['expected'] in str(result.body)\nE       assert 'test4' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\nE        +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\nE        +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body\n\ntest_case\\addresscenter\\test_address.py:39: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1671357624081,
+      "stop" : 1671357624268,
+      "duration" : 187
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'test4' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+    "statusTrace" : "self = <test_case.addresscenter.test_address.TestAddress object at 0x000001F99F6ABB80>\ndatas = {'addr': None, 'address': None, 'area': None, 'city': '深圳市', ...}\n\n    @allure.story(\"添加收货地址\")\n    @allure.title(\"添加收货地址操作\")\n    @pytest.mark.parametrize(\"datas\", data['test_add_address'])\n    def test_add_address(self, datas):\n    \n        result = add_address(datas)\n        assert result.success is True\n        assert len(get_address().body) == get_address_num(os.environ['mobile'])\n    \n        # if datas['expected'] != \"add_time\":\n        #     del_address({\"address_id\": result.body[-1]['id']})\n>       assert datas['expected'] in str(result.body)\nE       assert 'test4' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\nE        +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\nE        +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body\n\ntest_case\\addresscenter\\test_address.py:39: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e21283bb6874e1d5",
+      "name" : "stdout",
+      "source" : "e21283bb6874e1d5.txt",
+      "type" : "text/plain",
+      "size" : 2411
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "收获地址操作中心"
+  }, {
+    "name" : "story",
+    "value" : "添加收货地址"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.addresscenter"
+  }, {
+    "name" : "suite",
+    "value" : "test_address"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddress"
+  }, {
+    "name" : "host",
+    "value" : "xiaoma"
+  }, {
+    "name" : "thread",
+    "value" : "274080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.addresscenter.test_address"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': None, 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': 'test4'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a8a381a5594e936a.json",
+  "parameterValues" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': None, 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': 'test4'}" ]
+}

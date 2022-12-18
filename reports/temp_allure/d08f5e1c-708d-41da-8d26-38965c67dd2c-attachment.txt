@@ -1,0 +1,27 @@
+2022-12-18 18:00:27|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+2022-12-18 18:00:27|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-18 18:00:27|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "nums": 1,
+  "goods": 66
+}
+2022-12-18 18:00:27|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5NjI0MjQsImVtYWlsIjpudWxsfQ.IXxrdqEA2m4kFIqkvlNJH-z-RuiBsOs9zl9uqGpS_Aw"
+}
+2022-12-18 18:00:27|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"nums": 2, "goods": 66}
+2022-12-18 18:00:27|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/orders/
+2022-12-18 18:00:27|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-18 18:00:27|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "post_script": "\u6d4b\u8bd5",
+  "order_mount": -100,
+  "address": "\u6211\u64e6",
+  "signer_name": "\u5c0f\u9a6c",
+  "singer_mobile": "15397919586"
+}
+2022-12-18 18:00:27|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5NjI0MjQsImVtYWlsIjpudWxsfQ.IXxrdqEA2m4kFIqkvlNJH-z-RuiBsOs9zl9uqGpS_Aw"
+}
+2022-12-18 18:00:27|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"id": 1919, "pay_status": "paying", "order_sn": "2022121818002716342163", "trade_no": null, "pay_time": null, "add_time": "2022-12-18 18:00:27", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342163%22%2C%22out_trade_no%22%3A%222022121818002716342163%22%2C%22total_amount%22%3A-100.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=gLCvNBoFOun92jdRmRXmm6GflA1mzmqqnuG4sV8ecgA9jsAyWmoIAzv5gQwAKAML8USpvAKvCGrN%2Fda8dksln%2BpfCHmpe%2FptauyIy0wtRtHTTYrYLQlWtpJAtXJzrLWgIwVG3hz6SMRCYy%2FABFIGD%2BfhVn%2B%2Bl5Fm%2BgL8RW5B7GTeaKS2QkliSjwy12Af%2BhN%2BBYiAiMXk5bN%2BMkfV8ffZ0pJLBw4HJqLxYA0nS1bIdazQfkGMJ%2FtTt29HNV2EYemSfqvjxoblgwbDeKeJ00cTM55WH1iz%2FI2RGUoK666tWSGevdJ1ITVJZRnjgxBWQSV3P3uF0JghTbVLKWLF0mdn3g%3D%3D", "post_script": "测试", "order_mount": -100.0, "address": "我擦", "signer_name": "小马", "singer_mobile": "15397919586"}

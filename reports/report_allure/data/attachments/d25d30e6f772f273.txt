@@ -1,0 +1,26 @@
+2022-12-18 18:00:29|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/code/
+2022-12-18 18:00:29|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-18 18:00:29|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "mobile": "15397919588"
+}
+2022-12-18 18:00:29|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"mobile": "15397919588"}
+2022-12-18 18:00:29|INFO    |mysql_util.py|codeLine:29  |log information:执行sql：select code from users_verifycode where mobile = '15397919588' order by id desc limit 1
+2022-12-18 18:00:29|INFO    |mysql_util.py|codeLine:33  |log information:sql执行结果：{'code': '5962'}
+2022-12-18 18:00:29|INFO    |conftest.py|codeLine:10  |log information:sql执行结果：{'code': '5962'}
+2022-12-18 18:00:29|INFO    |mysql_util.py|codeLine:47  |log information:执行sql：UPDATE users_verifycode SET add_time = '2022-12-18 17:00:29' WHERE mobile = '15397919588';
+2022-12-18 18:00:29|INFO    |conftest.py|codeLine:31  |log information:sql执行结果:None
+2022-12-18 18:00:29|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/users/
+2022-12-18 18:00:29|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-18 18:00:29|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "code": "5962",
+  "password": 123456,
+  "username": 15397919588
+}
+2022-12-18 18:00:30|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"code": ["验证码过期"]}
+{'code': ['验证码过期']}
+2022-12-18 18:00:30|INFO    |mysql_util.py|codeLine:47  |log information:执行sql：delete from users_userprofile where mobile = '15397919588';
+2022-12-18 18:00:30|INFO    |conftest.py|codeLine:18  |log information:sql执行结果：None
+2022-12-18 18:00:30|INFO    |mysql_util.py|codeLine:47  |log information:执行sql：delete from users_verifycode where mobile = '15397919588';
+2022-12-18 18:00:30|INFO    |conftest.py|codeLine:25  |log information:sql执行结果：None

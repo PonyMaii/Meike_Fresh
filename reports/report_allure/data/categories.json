@@ -1,0 +1,137 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '省份不能为空' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "children" : [ {
+        "name" : "添加收货地址操作",
+        "uid" : "6c682bec70e39ea",
+        "parentUid" : "736011058fbd251371340fd6b08837fa",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357624562,
+          "stop" : 1671357624727,
+          "duration" : 165
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': None, 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': '省份不能为空'}" ]
+      } ],
+      "uid" : "736011058fbd251371340fd6b08837fa"
+    }, {
+      "name" : "AssertionError: assert '市区不能为空' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "children" : [ {
+        "name" : "添加收货地址操作",
+        "uid" : "4415389da52ec827",
+        "parentUid" : "1411b287ec59e9d76a98855a14aeab1f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357624787,
+          "stop" : 1671357624942,
+          "duration" : 155
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': None, 'district': '龙华区', 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': '市区不能为空'}" ]
+      } ],
+      "uid" : "1411b287ec59e9d76a98855a14aeab1f"
+    }, {
+      "name" : "AssertionError: assert 'test3' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "children" : [ {
+        "name" : "添加收货地址操作",
+        "uid" : "4ae66d054691769f",
+        "parentUid" : "0f3f1aef8fb4d2e0e4af84ef58ae2508",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357624953,
+          "stop" : 1671357625342,
+          "duration" : 389
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': None, 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': 'test3'}" ]
+      } ],
+      "uid" : "0f3f1aef8fb4d2e0e4af84ef58ae2508"
+    }, {
+      "name" : "AssertionError: assert 'test4' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "children" : [ {
+        "name" : "添加收货地址操作",
+        "uid" : "a8a381a5594e936a",
+        "parentUid" : "5815a9539e01bfcdfabe9511ae9b03f1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357625352,
+          "stop" : 1671357625522,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': None, 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': '小马', 'expected': 'test4'}" ]
+      } ],
+      "uid" : "5815a9539e01bfcdfabe9511ae9b03f1"
+    }, {
+      "name" : "AssertionError: assert 'test5' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "children" : [ {
+        "name" : "添加收货地址操作",
+        "uid" : "26688e8e22125e68",
+        "parentUid" : "9a2d86ef80fb80e28ee827a7c00af69d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357625533,
+          "stop" : 1671357625694,
+          "duration" : 161
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': None, 'signer_name': '小马', 'expected': 'test5'}" ]
+      } ],
+      "uid" : "9a2d86ef80fb80e28ee827a7c00af69d"
+    }, {
+      "name" : "AssertionError: assert 'test6' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "children" : [ {
+        "name" : "添加收货地址操作",
+        "uid" : "fce741e7f95424f9",
+        "parentUid" : "93726415162c7c02858bb39bdee760ad",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357625705,
+          "stop" : 1671357625869,
+          "duration" : 164
+        },
+        "flaky" : false,
+        "parameters" : [ "{'addr': None, 'area': None, 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'phone': None, 'receiveName': None, 'signer_mobile': 15397919586, 'signer_name': None, 'expected': 'test6'}" ]
+      } ],
+      "uid" : "93726415162c7c02858bb39bdee760ad"
+    }, {
+      "name" : "AssertionError: assert '0' == 0\n +  where 0 = judge_address_num(1881)",
+      "children" : [ {
+        "name" : "删除收获地址操作",
+        "uid" : "5ccfb71b30b5a9a1",
+        "parentUid" : "32efb8503c902a28459f0fea1cbbdd5e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357625883,
+          "stop" : 1671357626079,
+          "duration" : 196
+        },
+        "flaky" : false,
+        "parameters" : [ "{'address_id': None}" ]
+      } ],
+      "uid" : "32efb8503c902a28459f0fea1cbbdd5e"
+    }, {
+      "name" : "AssertionError: assert '数量必须大于0' in \"{'id': 1919, 'pay_status': 'paying', 'order_sn': '2022121818002716342163', 'trade_no': None, 'pay_time': None, 'add_time': '2022-12-18 18:00:27', 'alipay_url': 'https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342163%22%2C%22out_trade_no%22%3A%222022121818002716342163%22%2C%22total_amount%22%3A-100.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=gLCvNBoFOun92jdRmRXmm6GflA1mzmqqnuG4sV8ecgA9jsAyWmoIAzv5gQwAKAML8USpvAKvCGrN%2Fda8dksln%2BpfCHmpe%2FptauyIy0wtRtHTTYrYLQlWtpJAtXJzrLWgIwVG3hz6SMRCYy%2FABFIGD%2BfhVn%2B%2Bl5Fm%2BgL8RW5B7GTeaKS2QkliSjwy12Af%2BhN%2BBYiAiMXk5bN%2BMkfV8ffZ0pJLBw4HJqLxYA0nS1bIdazQfkGMJ%2FtTt29HNV2EYemSfqvjxoblgwbDeKeJ00cTM55WH1iz%2FI2RGUoK666tWSGevdJ1ITVJZRnjgxBWQSV3P3uF0JghTbVLKWLF0mdn3g%3D%3D', 'post_script': '测试', 'order_mount': -100.0, 'address': '我擦', 'signer_name': '小马', 'singer_mobile': '15397919586'}\"\n +  where \"{'id': 1919, 'pay_status': 'paying', 'order_sn': '2022121818002716342163', 'trade_no': None, 'pay_time': None, 'add_time': '2022-12-18 18:00:27', 'alipay_url': 'https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342163%22%2C%22out_trade_no%22%3A%222022121818002716342163%22%2C%22total_amount%22%3A-100.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=gLCvNBoFOun92jdRmRXmm6GflA1mzmqqnuG4sV8ecgA9jsAyWmoIAzv5gQwAKAML8USpvAKvCGrN%2Fda8dksln%2BpfCHmpe%2FptauyIy0wtRtHTTYrYLQlWtpJAtXJzrLWgIwVG3hz6SMRCYy%2FABFIGD%2BfhVn%2B%2Bl5Fm%2BgL8RW5B7GTeaKS2QkliSjwy12Af%2BhN%2BBYiAiMXk5bN%2BMkfV8ffZ0pJLBw4HJqLxYA0nS1bIdazQfkGMJ%2FtTt29HNV2EYemSfqvjxoblgwbDeKeJ00cTM55WH1iz%2FI2RGUoK666tWSGevdJ1ITVJZRnjgxBWQSV3P3uF0JghTbVLKWLF0mdn3g%3D%3D', 'post_script': '测试', 'order_mount': -100.0, 'address': '我擦', 'signer_name': '小马', 'singer_mobile': '15397919586'}\" = str({'add_time': '2022-12-18 18:00:27', 'address': '我擦', 'alipay_url': 'https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342163%22%2C%22out_trade_no%22%3A%222022121818002716342163%22%2C%22total_amount%22%3A-100.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=gLCvNBoFOun92jdRmRXmm6GflA1mzmqqnuG4sV8ecgA9jsAyWmoIAzv5gQwAKAML8USpvAKvCGrN%2Fda8dksln%2BpfCHmpe%2FptauyIy0wtRtHTTYrYLQlWtpJAtXJzrLWgIwVG3hz6SMRCYy%2FABFIGD%2BfhVn%2B%2Bl5Fm%2BgL8RW5B7GTeaKS2QkliSjwy12Af%2BhN%2BBYiAiMXk5bN%2BMkfV8ffZ0pJLBw4HJqLxYA0nS1bIdazQfkGMJ%2FtTt29HNV2EYemSfqvjxoblgwbDeKeJ00cTM55WH1iz%2FI2RGUoK666tWSGevdJ1ITVJZRnjgxBWQSV3P3uF0JghTbVLKWLF0mdn3g%3D%3D', 'id': 1919, ...})\n +    where {'add_time': '2022-12-18 18:00:27', 'address': '我擦', 'alipay_url': 'https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342163%22%2C%22out_trade_no%22%3A%222022121818002716342163%22%2C%22total_amount%22%3A-100.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=gLCvNBoFOun92jdRmRXmm6GflA1mzmqqnuG4sV8ecgA9jsAyWmoIAzv5gQwAKAML8USpvAKvCGrN%2Fda8dksln%2BpfCHmpe%2FptauyIy0wtRtHTTYrYLQlWtpJAtXJzrLWgIwVG3hz6SMRCYy%2FABFIGD%2BfhVn%2B%2Bl5Fm%2BgL8RW5B7GTeaKS2QkliSjwy12Af%2BhN%2BBYiAiMXk5bN%2BMkfV8ffZ0pJLBw4HJqLxYA0nS1bIdazQfkGMJ%2FtTt29HNV2EYemSfqvjxoblgwbDeKeJ00cTM55WH1iz%2FI2RGUoK666tWSGevdJ1ITVJZRnjgxBWQSV3P3uF0JghTbVLKWLF0mdn3g%3D%3D', 'id': 1919, ...} = <class 'core.ResultBase.ResultResponse'>.body",
+      "children" : [ {
+        "name" : "下单操作",
+        "uid" : "810ef4f640845321",
+        "parentUid" : "82672dc5460e5c9f339ccd9d940737c5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1671357627140,
+          "stop" : 1671357627376,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "parameters" : [ "{'nums': 1, 'goods': 66, 'post_script': '测试', 'order_mount': -100, 'address': '我擦', 'signer_name': '小马', 'singer_mobile': None, 'expected': '数量必须大于0'}" ]
+      } ],
+      "uid" : "82672dc5460e5c9f339ccd9d940737c5"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

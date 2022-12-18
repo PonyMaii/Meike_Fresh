@@ -1,0 +1,675 @@
+{
+  "38d2a6cd3d9c44f0ce84f09851165300" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "51d867f2ea4c0f63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357628661,
+        "stop" : 1671357629071,
+        "duration" : 410
+      }
+    } ]
+  },
+  "5e2206ac538733006f39490b676bb2ad" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bc54d61c2ac01c87",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357626984,
+        "stop" : 1671357627130,
+        "duration" : 146
+      }
+    } ]
+  },
+  "9f1e3c1ec7f4dc08cc67b51c469e8ba2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "13c8a2820bbb2db9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357630619,
+        "stop" : 1671357630681,
+        "duration" : 62
+      }
+    } ]
+  },
+  "62174db1a0ac5ce645bdae1e4a71b9d3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "849d08007c77735b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357627869,
+        "stop" : 1671357627947,
+        "duration" : 78
+      }
+    } ]
+  },
+  "bbf33fe54a8cfd05875168a369ee28c6" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6c682bec70e39ea",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '省份不能为空' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "time" : {
+        "start" : 1671357624562,
+        "stop" : 1671357624727,
+        "duration" : 165
+      }
+    } ]
+  },
+  "ff54400c461e6d647afd20c8c9991ad6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "df74632b3b834f06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357627388,
+        "stop" : 1671357627526,
+        "duration" : 138
+      }
+    } ]
+  },
+  "6720111827ffb61ba1f14d19740ebd05" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4ae66d054691769f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'test3' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "time" : {
+        "start" : 1671357624953,
+        "stop" : 1671357625342,
+        "duration" : 389
+      }
+    } ]
+  },
+  "8aef32dd7c8e2dd897f55e0e81bec2ff" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa9f2db729ef38d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357627537,
+        "stop" : 1671357627673,
+        "duration" : 136
+      }
+    } ]
+  },
+  "68dd8c965eee2683970fd413214bc06f" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1dc78e70d7b7ee3e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357628118,
+        "stop" : 1671357628203,
+        "duration" : 85
+      }
+    } ]
+  },
+  "01dbe641f397ed9740bc7c747cd30339" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77c8bf74063598cb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357626513,
+        "stop" : 1671357626581,
+        "duration" : 68
+      }
+    } ]
+  },
+  "e306591a857238d80ff9034e62c0184c" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "958080fca7cbc67b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357627777,
+        "stop" : 1671357627860,
+        "duration" : 83
+      }
+    } ]
+  },
+  "784ea7d33db8ebe1dcbc60f05601dd0a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bf9a0f23ed6b07d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357630426,
+        "stop" : 1671357630610,
+        "duration" : 184
+      }
+    } ]
+  },
+  "57b81ee926f690c717b098228f4c2227" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5a3c70ac89ed01d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357626370,
+        "stop" : 1671357626436,
+        "duration" : 66
+      }
+    } ]
+  },
+  "b787e5863df2d5287af1495ebe84ade7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a5728e08cd0999d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357626591,
+        "stop" : 1671357626976,
+        "duration" : 385
+      }
+    } ]
+  },
+  "9910cbf8cba7c6aaecfd5995022aaedf" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5fd8bb9f8c013f1c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357630226,
+        "stop" : 1671357630417,
+        "duration" : 191
+      }
+    } ]
+  },
+  "a1b5580102f67c8a9a030218a443f6c6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "70a70e961fcf44b4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357627682,
+        "stop" : 1671357627768,
+        "duration" : 86
+      }
+    } ]
+  },
+  "6fbdbe86c04b23d35a81488c60b95e63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5dd6101a75a6103",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357626445,
+        "stop" : 1671357626504,
+        "duration" : 59
+      }
+    } ]
+  },
+  "faad682dbbab1e849fec2b7363a1cd82" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e047d39bc7d3382",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357630690,
+        "stop" : 1671357630758,
+        "duration" : 68
+      }
+    } ]
+  },
+  "3dfc5667c9c24b97dc746fef1b313135" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c6852ef11e600692",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357629080,
+        "stop" : 1671357629422,
+        "duration" : 342
+      }
+    } ]
+  },
+  "f8c9f911f32186a4f5f31bbea3623add" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "21f4bc77f5f191a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357628029,
+        "stop" : 1671357628109,
+        "duration" : 80
+      }
+    } ]
+  },
+  "c0dc80e36e0d983aa8edfe295c6ffb6f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fce741e7f95424f9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'test6' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "time" : {
+        "start" : 1671357625705,
+        "stop" : 1671357625869,
+        "duration" : 164
+      }
+    } ]
+  },
+  "2e053cb0175e82b572bfcb9f8d0b19f5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5cd295a653873f5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357627956,
+        "stop" : 1671357628021,
+        "duration" : 65
+      }
+    } ]
+  },
+  "2a5c2df03f7ed7f12e9b251ed0a48c63" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69c76086043a394e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357629433,
+        "stop" : 1671357629789,
+        "duration" : 356
+      }
+    } ]
+  },
+  "755f54fb721e05c84e27c566862f36d2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4415389da52ec827",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '市区不能为空' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "time" : {
+        "start" : 1671357624787,
+        "stop" : 1671357624942,
+        "duration" : 155
+      }
+    } ]
+  },
+  "a9f5b17485b27b757a64be9a0fbc040c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "810ef4f640845321",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '数量必须大于0' in \"{'id': 1919, 'pay_status': 'paying', 'order_sn': '2022121818002716342163', 'trade_no': None, 'pay_time': None, 'add_time': '2022-12-18 18:00:27', 'alipay_url': 'https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342163%22%2C%22out_trade_no%22%3A%222022121818002716342163%22%2C%22total_amount%22%3A-100.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=gLCvNBoFOun92jdRmRXmm6GflA1mzmqqnuG4sV8ecgA9jsAyWmoIAzv5gQwAKAML8USpvAKvCGrN%2Fda8dksln%2BpfCHmpe%2FptauyIy0wtRtHTTYrYLQlWtpJAtXJzrLWgIwVG3hz6SMRCYy%2FABFIGD%2BfhVn%2B%2Bl5Fm%2BgL8RW5B7GTeaKS2QkliSjwy12Af%2BhN%2BBYiAiMXk5bN%2BMkfV8ffZ0pJLBw4HJqLxYA0nS1bIdazQfkGMJ%2FtTt29HNV2EYemSfqvjxoblgwbDeKeJ00cTM55WH1iz%2FI2RGUoK666tWSGevdJ1ITVJZRnjgxBWQSV3P3uF0JghTbVLKWLF0mdn3g%3D%3D', 'post_script': '测试', 'order_mount': -100.0, 'address': '我擦', 'signer_name': '小马', 'singer_mobile': '15397919586'}\"\n +  where \"{'id': 1919, 'pay_status': 'paying', 'order_sn': '2022121818002716342163', 'trade_no': None, 'pay_time': None, 'add_time': '2022-12-18 18:00:27', 'alipay_url': 'https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342163%22%2C%22out_trade_no%22%3A%222022121818002716342163%22%2C%22total_amount%22%3A-100.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=gLCvNBoFOun92jdRmRXmm6GflA1mzmqqnuG4sV8ecgA9jsAyWmoIAzv5gQwAKAML8USpvAKvCGrN%2Fda8dksln%2BpfCHmpe%2FptauyIy0wtRtHTTYrYLQlWtpJAtXJzrLWgIwVG3hz6SMRCYy%2FABFIGD%2BfhVn%2B%2Bl5Fm%2BgL8RW5B7GTeaKS2QkliSjwy12Af%2BhN%2BBYiAiMXk5bN%2BMkfV8ffZ0pJLBw4HJqLxYA0nS1bIdazQfkGMJ%2FtTt29HNV2EYemSfqvjxoblgwbDeKeJ00cTM55WH1iz%2FI2RGUoK666tWSGevdJ1ITVJZRnjgxBWQSV3P3uF0JghTbVLKWLF0mdn3g%3D%3D', 'post_script': '测试', 'order_mount': -100.0, 'address': '我擦', 'signer_name': '小马', 'singer_mobile': '15397919586'}\" = str({'add_time': '2022-12-18 18:00:27', 'address': '我擦', 'alipay_url': 'https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342163%22%2C%22out_trade_no%22%3A%222022121818002716342163%22%2C%22total_amount%22%3A-100.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=gLCvNBoFOun92jdRmRXmm6GflA1mzmqqnuG4sV8ecgA9jsAyWmoIAzv5gQwAKAML8USpvAKvCGrN%2Fda8dksln%2BpfCHmpe%2FptauyIy0wtRtHTTYrYLQlWtpJAtXJzrLWgIwVG3hz6SMRCYy%2FABFIGD%2BfhVn%2B%2Bl5Fm%2BgL8RW5B7GTeaKS2QkliSjwy12Af%2BhN%2BBYiAiMXk5bN%2BMkfV8ffZ0pJLBw4HJqLxYA0nS1bIdazQfkGMJ%2FtTt29HNV2EYemSfqvjxoblgwbDeKeJ00cTM55WH1iz%2FI2RGUoK666tWSGevdJ1ITVJZRnjgxBWQSV3P3uF0JghTbVLKWLF0mdn3g%3D%3D', 'id': 1919, ...})\n +    where {'add_time': '2022-12-18 18:00:27', 'address': '我擦', 'alipay_url': 'https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342163%22%2C%22out_trade_no%22%3A%222022121818002716342163%22%2C%22total_amount%22%3A-100.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=gLCvNBoFOun92jdRmRXmm6GflA1mzmqqnuG4sV8ecgA9jsAyWmoIAzv5gQwAKAML8USpvAKvCGrN%2Fda8dksln%2BpfCHmpe%2FptauyIy0wtRtHTTYrYLQlWtpJAtXJzrLWgIwVG3hz6SMRCYy%2FABFIGD%2BfhVn%2B%2Bl5Fm%2BgL8RW5B7GTeaKS2QkliSjwy12Af%2BhN%2BBYiAiMXk5bN%2BMkfV8ffZ0pJLBw4HJqLxYA0nS1bIdazQfkGMJ%2FtTt29HNV2EYemSfqvjxoblgwbDeKeJ00cTM55WH1iz%2FI2RGUoK666tWSGevdJ1ITVJZRnjgxBWQSV3P3uF0JghTbVLKWLF0mdn3g%3D%3D', 'id': 1919, ...} = <class 'core.ResultBase.ResultResponse'>.body",
+      "time" : {
+        "start" : 1671357627140,
+        "stop" : 1671357627376,
+        "duration" : 236
+      }
+    } ]
+  },
+  "e7fa98cf8d07167aa8d49ec0506d459f" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a8a381a5594e936a",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'test4' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "time" : {
+        "start" : 1671357625352,
+        "stop" : 1671357625522,
+        "duration" : 170
+      }
+    } ]
+  },
+  "25a79d3560b2305320ac9b77964a8855" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26688e8e22125e68",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'test5' in \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\"\n +  where \"[{'id': 1880, 'add_time': '2022-12-18 18:00:09', 'province': '江西省', 'city': '南昌市', 'district': '青山湖区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}, {'id': 1881, 'add_time': '2022-12-18 18:00:25', 'province': '广东省', 'city': '深圳市', 'district': '龙华区', 'address': '龙华', 'signer_name': '小马', 'signer_mobile': '15397919586'}]\" = str([{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}])\n +    where [{'add_time': '2022-12-18 18:00:09', 'address': '龙华', 'city': '南昌市', 'district': '青山湖区', ...}, {'add_time': '2022-12-18 18:00:25', 'address': '龙华', 'city': '深圳市', 'district': '龙华区', ...}] = <class 'core.ResultBase.ResultResponse'>.body",
+      "time" : {
+        "start" : 1671357625533,
+        "stop" : 1671357625694,
+        "duration" : 161
+      }
+    } ]
+  },
+  "df3813e4deb1b48cc4190c033b8ec9a0" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "beb7a71c6157dc19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357624379,
+        "stop" : 1671357624548,
+        "duration" : 169
+      }
+    } ]
+  },
+  "bcdfceeed7681351b24570b8a99cf458" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7587afeab33c40a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357624269,
+        "stop" : 1671357624368,
+        "duration" : 99
+      }
+    } ]
+  },
+  "a1050c36363c11e19233b82ed2554038" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7d720b30d154988f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357629798,
+        "stop" : 1671357630217,
+        "duration" : 419
+      }
+    } ]
+  },
+  "4d2814a4febd47efb416f766f5cb4844" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6290c509f083c9a0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357626121,
+        "stop" : 1671357626189,
+        "duration" : 68
+      }
+    } ]
+  },
+  "de3f09c5d1782589ee7bc32e723a9560" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "619841d88e0eb0ba",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357626197,
+        "stop" : 1671357626362,
+        "duration" : 165
+      }
+    } ]
+  },
+  "7f7055b0a55546d465faf54e6155b267" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "12a6478d2b21fd8c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357630767,
+        "stop" : 1671357630881,
+        "duration" : 114
+      }
+    } ]
+  },
+  "1d66442e051a0a84594e06497a4d8432" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b6ef739679694c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1671357628215,
+        "stop" : 1671357628647,
+        "duration" : 432
+      }
+    } ]
+  },
+  "e7be19c734312297fe5926ef236233f7" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5ccfb71b30b5a9a1",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '0' == 0\n +  where 0 = judge_address_num(1881)",
+      "time" : {
+        "start" : 1671357625883,
+        "stop" : 1671357626079,
+        "duration" : 196
+      }
+    } ]
+  }
+}

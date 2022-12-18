@@ -1,0 +1,41 @@
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "nums": 1,
+  "goods": 66
+}
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5NjI0MjQsImVtYWlsIjpudWxsfQ.IXxrdqEA2m4kFIqkvlNJH-z-RuiBsOs9zl9uqGpS_Aw"
+}
+2022-12-18 18:00:26|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"nums": 6, "goods": 66}
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>GET
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5NjI0MjQsImVtYWlsIjpudWxsfQ.IXxrdqEA2m4kFIqkvlNJH-z-RuiBsOs9zl9uqGpS_Aw"
+}
+2022-12-18 18:00:26|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：[{"id": 1654, "goods": {"id": 66, "category": {"id": 3, "sub_cat": [], "add_time": "2019-11-19 13:21:56", "name": "羊肉", "code": "yr", "desc": "", "category_type": 3, "is_tab": false, "parent_category": 2}, "images": [], "add_time": "2021-06-19 13:56:00", "goods_sn": "999959", "name": "山羊肉", "click_num": 22, "sold_num": 45, "fav_num": 55, "goods_num": 3, "market_price": 666.0, "shop_price": 888.0, "goods_brief": "精美山羊肉", "goods_desc": "精美山羊肉", "ship_free": true, "goods_front_image": "http://admin.5istudy.online/media/goods/images/%E7%8C%AA%E8%82%893.jpg", "is_new": true, "is_hot": false}, "nums": 6, "add_time": "2022-12-18T17:58:35.778300", "user": 163421}]
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/address/
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>GET
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5NjI0MjQsImVtYWlsIjpudWxsfQ.IXxrdqEA2m4kFIqkvlNJH-z-RuiBsOs9zl9uqGpS_Aw"
+}
+2022-12-18 18:00:26|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：[{"id": 1880, "add_time": "2022-12-18 18:00:09", "province": "江西省", "city": "南昌市", "district": "青山湖区", "address": "龙华", "signer_name": "小马", "signer_mobile": "15397919586"}]
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/orders/
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "post_script": "\u6d4b\u8bd5",
+  "order_mount": 5328.0,
+  "address": "\u9f99\u534e\u5357\u660c\u5e02\u9752\u5c71\u6e56\u533a",
+  "signer_name": "\u5c0f\u9a6c",
+  "singer_mobile": "15397919586"
+}
+2022-12-18 18:00:26|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5NjI0MjQsImVtYWlsIjpudWxsfQ.IXxrdqEA2m4kFIqkvlNJH-z-RuiBsOs9zl9uqGpS_Aw"
+}
+2022-12-18 18:00:26|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"id": 1918, "pay_status": "paying", "order_sn": "2022121818002716342165", "trade_no": null, "pay_time": null, "add_time": "2022-12-18 18:00:27", "alipay_url": "https://openapi.alipaydev.com/gateway.do?app_id=2016101500694258&biz_content=%7B%22subject%22%3A%222022121818002716342165%22%2C%22out_trade_no%22%3A%222022121818002716342165%22%2C%22total_amount%22%3A5328.0%2C%22product_code%22%3A%22FAST_INSTANT_TRADE_PAY%22%7D&charset=utf-8&method=alipay.trade.page.pay&notify_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&return_url=http%3A%2F%2Fadmin.5istudy.online%2Falipay%2Freturn%2F&sign_type=RSA2&timestamp=2022-12-18+18%3A00%3A27&version=1.0&sign=YSr%2F0a%2F3bhlFKWjkQcQGRfrUTvTCeq5DNYcLyqHxRAeNiWRTNWOibYIkBi2l1TbUFO7vNIVup9peIiAPoAXq3hZvCuS%2BokP37dABWdQhlxkP4dFrrgWS%2BLIayje6F8dFNf2GZFwZ%2FySIOucV%2F%2BlypBBsuI7Y3REIueUqqUZaIcB7fmoRYSLZdxA7qotQiHZK7PLhV3AM%2FOjEtRSUShwlTysbbaAZhnAYyoHFrk5q2pvuhJRI099Q%2FyWroUliJ7Cy2rZIC2yAvl%2B4p8i%2BpZiFXsa7m0gKu4vb%2FTZ4YQmZx3tlZt6MXfRdtuXPRoD7XxeyzhnPeYI083W9ug1jjfZnlw%3D%3D", "post_script": "测试", "order_mount": 5328.0, "address": "龙华南昌市青山湖区", "signer_name": "小马", "singer_mobile": "15397919586"}
