@@ -1,8 +1,0 @@
-2022-12-18 18:00:30|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/login/
-2022-12-18 18:00:30|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
-2022-12-18 18:00:30|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
-{
-  "username": 15000000002,
-  "password": 123456
-}
-2022-12-18 18:00:30|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNTkyOTYsInVzZXJuYW1lIjoiMTUwMDAwMDAwMDIiLCJleHAiOjE2NzE5NjI0MzAsImVtYWlsIjpudWxsfQ.vhHyr0YpVVUFVxZtiFydq3xw9-VOWRaIDrGtx8m1Uw4"}

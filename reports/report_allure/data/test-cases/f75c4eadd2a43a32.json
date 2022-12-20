@@ -1,0 +1,95 @@
+{
+  "uid" : "f75c4eadd2a43a32",
+  "name" : "用户手机登入",
+  "fullName" : "test_case.usercenter.test_user.TestUser#test_login",
+  "historyId" : "7f7055b0a55546d465faf54e6155b267",
+  "time" : {
+    "start" : 1671380867901,
+    "stop" : 1671380868013,
+    "duration" : 112
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1671380861687,
+      "stop" : 1671380861871,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7a98bad802ae2f4a",
+      "name" : "stdout",
+      "source" : "7a98bad802ae2f4a.txt",
+      "type" : "text/plain",
+      "size" : 563
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户中心模块"
+  }, {
+    "name" : "story",
+    "value" : "用户登入"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.usercenter"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "xiaoma"
+  }, {
+    "name" : "thread",
+    "value" : "303052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.usercenter.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'username': 15397919589, 'password': 123456, 'expected': '无法使用提供的认证信息登录'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f75c4eadd2a43a32.json",
+  "parameterValues" : [ "{'username': 15397919589, 'password': 123456, 'expected': '无法使用提供的认证信息登录'}" ]
+}

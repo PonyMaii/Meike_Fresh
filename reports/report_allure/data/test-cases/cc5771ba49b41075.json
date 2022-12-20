@@ -1,0 +1,95 @@
+{
+  "uid" : "cc5771ba49b41075",
+  "name" : "添加购物车操作",
+  "fullName" : "test_case.goodscenter.test_goods.TestGoods#test_shopping_cart",
+  "historyId" : "01dbe641f397ed9740bc7c747cd30339",
+  "time" : {
+    "start" : 1671380863682,
+    "stop" : 1671380863746,
+    "duration" : 64
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1671380861687,
+      "stop" : 1671380861871,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "cd5963fb84b5357e",
+      "name" : "stdout",
+      "source" : "cd5963fb84b5357e.txt",
+      "type" : "text/plain",
+      "size" : 840
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "购物车相关"
+  }, {
+    "name" : "feature",
+    "value" : "商品操作中心"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.goodscenter"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGoods"
+  }, {
+    "name" : "host",
+    "value" : "xiaoma"
+  }, {
+    "name" : "thread",
+    "value" : "303052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.goodscenter.test_goods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'nums': '-**', 'goods': 66, 'expected': '请填写合法的整数值。'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cc5771ba49b41075.json",
+  "parameterValues" : [ "{'nums': '-**', 'goods': 66, 'expected': '请填写合法的整数值。'}" ]
+}

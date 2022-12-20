@@ -1,0 +1,12 @@
+2022-12-19 00:27:43|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+2022-12-19 00:27:43|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-19 00:27:43|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "nums": "-**",
+  "goods": 66
+}
+2022-12-19 00:27:43|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5ODU2NjIsImVtYWlsIjpudWxsfQ.9bktgjzm_2ZkbtWpJYAWErnhWffWpgoDFSLdhE__F10"
+}
+2022-12-19 00:27:43|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"nums": ["请填写合法的整数值。"]}

@@ -1,0 +1,16 @@
+2022-12-19 00:27:43|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+2022-12-19 00:27:43|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-19 00:27:43|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "nums": 3,
+  "goods": 66
+}
+2022-12-19 00:27:43|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5ODU2NjIsImVtYWlsIjpudWxsfQ.9bktgjzm_2ZkbtWpJYAWErnhWffWpgoDFSLdhE__F10"
+}
+2022-12-19 00:27:43|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"nums": 5, "goods": 66}
+2022-12-19 00:27:43|INFO    |mysql_util.py|codeLine:29  |log information:执行sql：select id from users_userprofile where mobile = '15397919586';
+2022-12-19 00:27:43|INFO    |mysql_util.py|codeLine:33  |log information:sql执行结果：{'id': 163421}
+2022-12-19 00:27:43|INFO    |mysql_util.py|codeLine:29  |log information:执行sql：select nums from trade_shoppingcart where user_id = 163421 and goods_id = 66
+2022-12-19 00:27:43|INFO    |mysql_util.py|codeLine:33  |log information:sql执行结果：{'nums': 5}

@@ -1,0 +1,7 @@
+2022-12-19 00:27:45|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/code/
+2022-12-19 00:27:45|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-19 00:27:45|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "mobile": "153979195868"
+}
+2022-12-19 00:27:45|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"mobile": ["请确保这个字段不能超过 11 个字符。"]}

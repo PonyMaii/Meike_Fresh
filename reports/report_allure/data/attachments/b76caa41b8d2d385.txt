@@ -1,0 +1,8 @@
+2022-12-19 00:27:47|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/login/
+2022-12-19 00:27:47|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-19 00:27:47|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "username": 15000000002,
+  "password": 12345
+}
+2022-12-19 00:27:47|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"non_field_errors": ["无法使用提供的认证信息登录。"]}

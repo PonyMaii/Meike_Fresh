@@ -1,0 +1,29 @@
+2022-12-19 00:27:42|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/address/
+2022-12-19 00:27:42|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-19 00:27:42|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "addr": null,
+  "area": null,
+  "province": "\u5e7f\u4e1c\u7701",
+  "city": "\u6df1\u5733\u5e02",
+  "district": "\u9f99\u534e\u533a",
+  "address": null,
+  "phone": null,
+  "receiveName": null,
+  "signer_mobile": 15397919586,
+  "signer_name": "\u5c0f\u9a6c"
+}
+2022-12-19 00:27:42|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5ODU2NjIsImVtYWlsIjpudWxsfQ.9bktgjzm_2ZkbtWpJYAWErnhWffWpgoDFSLdhE__F10"
+}
+2022-12-19 00:27:42|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"address": ["该字段不能为 null。"]}
+2022-12-19 00:27:42|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/address/
+2022-12-19 00:27:42|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>GET
+2022-12-19 00:27:42|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5ODU2NjIsImVtYWlsIjpudWxsfQ.9bktgjzm_2ZkbtWpJYAWErnhWffWpgoDFSLdhE__F10"
+}
+2022-12-19 00:27:42|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：[{"id": 1880, "add_time": "2022-12-18 18:00:09", "province": "江西省", "city": "南昌市", "district": "青山湖区", "address": "龙华", "signer_name": "小马", "signer_mobile": "15397919586"}, {"id": 1886, "add_time": "2022-12-19 00:27:43", "province": "广东省", "city": "深圳市", "district": "龙华区", "address": "龙华", "signer_name": "小马", "signer_mobile": "15397919586"}]
+2022-12-19 00:27:42|INFO    |mysql_util.py|codeLine:29  |log information:执行sql：SELECT count(1) FROM `vue_shop`.`user_operation_useraddress` WHERE `signer_mobile` = '15397919586' 
+2022-12-19 00:27:42|INFO    |mysql_util.py|codeLine:33  |log information:sql执行结果：{'count(1)': 2}

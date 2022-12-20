@@ -1,0 +1,95 @@
+{
+  "uid" : "4d07a3370ff23980",
+  "name" : "下单操作",
+  "fullName" : "test_case.goodscenter.test_goods.TestGoods#test_add_order",
+  "historyId" : "b787e5863df2d5287af1495ebe84ade7",
+  "time" : {
+    "start" : 1671380863753,
+    "stop" : 1671380864134,
+    "duration" : 381
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1671380861687,
+      "stop" : 1671380861871,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fcd137a81015069b",
+      "name" : "stdout",
+      "source" : "fcd137a81015069b.txt",
+      "type" : "text/plain",
+      "size" : 5365
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "下单相关"
+  }, {
+    "name" : "feature",
+    "value" : "商品操作中心"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.goodscenter"
+  }, {
+    "name" : "suite",
+    "value" : "test_goods"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestGoods"
+  }, {
+    "name" : "host",
+    "value" : "xiaoma"
+  }, {
+    "name" : "thread",
+    "value" : "303052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.goodscenter.test_goods"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'nums': 1, 'goods': 66, 'post_script': '测试', 'order_mount': None, 'address': None, 'signer_name': '小马', 'singer_mobile': None, 'expected': 'order_sn'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4d07a3370ff23980.json",
+  "parameterValues" : [ "{'nums': 1, 'goods': 66, 'post_script': '测试', 'order_mount': None, 'address': None, 'signer_name': '小马', 'singer_mobile': None, 'expected': 'order_sn'}" ]
+}

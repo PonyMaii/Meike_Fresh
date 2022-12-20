@@ -6,7 +6,7 @@
 # @File : conftest.py
 # @desc :
 import os
-
+from global_variable import BASE_DIR
 import pytest
 
 from utils.mysql_util import db
@@ -22,4 +22,15 @@ def judge_address_num(address_id):
     return result['count(1)']
 
 if __name__ == '__main__':
-    print(get_address_num(str(15397919586)))
+    with open(BASE_DIR+"/configs/logging.conf", "r", encoding="UTF-8") as f:
+
+        while True:
+            try:
+                f.readline()
+            except:
+                break
+
+        c = f.readlines()
+        print(c)
+
+        x = "1"

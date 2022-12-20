@@ -1,7 +1,0 @@
-2022-12-18 18:00:28|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/code/
-2022-12-18 18:00:28|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
-2022-12-18 18:00:28|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
-{
-  "mobile": "\u8be5\u5b57\u6bb5\u4e0d\u80fd\u4e3a\u7a7a"
-}
-2022-12-18 18:00:28|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"mobile": ["手机号码非法"]}

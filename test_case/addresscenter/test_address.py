@@ -39,14 +39,14 @@ class TestAddress:
         assert datas['expected'] in str(result.body)
 
 
-    @allure.story("删除收获地址")
-    @allure.title("删除收获地址操作")
-    @pytest.mark.parametrize("datas", data['test_del_address'])
-    def test_del_address(self, datas):
-
-        datas['address_id'] = get_address().body[-1]['id']
-        del_address(datas)
-        assert 0 == judge_address_num(datas['address_id'])
+    # @allure.story("删除收获地址")
+    # @allure.title("删除收获地址操作")
+    # @pytest.mark.parametrize("datas", data['test_del_address'])
+    # def test_del_address(self, datas):
+    #
+    #     datas['address_id'] = get_address().body[-1]['id']
+    #     del_address(datas)
+    #     assert 0 == judge_address_num(datas['address_id'])
 
 
 

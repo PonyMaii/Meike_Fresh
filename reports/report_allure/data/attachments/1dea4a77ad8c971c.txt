@@ -1,0 +1,26 @@
+2022-12-19 00:27:45|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/code/
+2022-12-19 00:27:45|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-19 00:27:45|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "mobile": "15397919588"
+}
+2022-12-19 00:27:45|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"mobile": "15397919588"}
+2022-12-19 00:27:45|INFO    |mysql_util.py|codeLine:29  |log information:执行sql：select code from users_verifycode where mobile = '15397919588' order by id desc limit 1
+2022-12-19 00:27:45|INFO    |mysql_util.py|codeLine:33  |log information:sql执行结果：{'code': '0488'}
+2022-12-19 00:27:45|INFO    |conftest.py|codeLine:10  |log information:sql执行结果：{'code': '0488'}
+2022-12-19 00:27:45|INFO    |mysql_util.py|codeLine:47  |log information:执行sql：delete from users_verifycode where mobile = '15397919588';
+2022-12-19 00:27:46|INFO    |conftest.py|codeLine:25  |log information:sql执行结果：None
+2022-12-19 00:27:46|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/users/
+2022-12-19 00:27:46|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-19 00:27:46|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "code": "0488",
+  "password": 123456,
+  "username": 15397919588
+}
+2022-12-19 00:27:46|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"code": ["请先获取验证码"]}
+{'code': ['请先获取验证码']}
+2022-12-19 00:27:46|INFO    |mysql_util.py|codeLine:47  |log information:执行sql：delete from users_userprofile where mobile = '15397919588';
+2022-12-19 00:27:46|INFO    |conftest.py|codeLine:18  |log information:sql执行结果：None
+2022-12-19 00:27:46|INFO    |mysql_util.py|codeLine:47  |log information:执行sql：delete from users_verifycode where mobile = '15397919588';
+2022-12-19 00:27:46|INFO    |conftest.py|codeLine:25  |log information:sql执行结果：None

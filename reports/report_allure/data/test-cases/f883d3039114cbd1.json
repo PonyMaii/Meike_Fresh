@@ -1,0 +1,95 @@
+{
+  "uid" : "f883d3039114cbd1",
+  "name" : "用户手机登入",
+  "fullName" : "test_case.usercenter.test_user.TestUser#test_login",
+  "historyId" : "784ea7d33db8ebe1dcbc60f05601dd0a",
+  "time" : {
+    "start" : 1671380867579,
+    "stop" : 1671380867760,
+    "duration" : 181
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1671380861687,
+      "stop" : 1671380861871,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b76caa41b8d2d385",
+      "name" : "stdout",
+      "source" : "b76caa41b8d2d385.txt",
+      "type" : "text/plain",
+      "size" : 562
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户中心模块"
+  }, {
+    "name" : "story",
+    "value" : "用户登入"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.usercenter"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "xiaoma"
+  }, {
+    "name" : "thread",
+    "value" : "303052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.usercenter.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'username': 15000000002, 'password': 12345, 'expected': '无法使用提供的认证信息登录'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f883d3039114cbd1.json",
+  "parameterValues" : [ "{'username': 15000000002, 'password': 12345, 'expected': '无法使用提供的认证信息登录'}" ]
+}

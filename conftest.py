@@ -141,5 +141,7 @@ def get_headers():
     return headers
 
 if __name__ == '__main__':
-    get_token()
-    print(os.environ['token'])
+    # get_token()
+    # print(os.environ['token'])
+    for i, key in enumerate(["ew","aa"]):
+        print(i, key)

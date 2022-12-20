@@ -1,0 +1,27 @@
+2022-12-19 00:27:44|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/shopcarts/
+2022-12-19 00:27:44|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-19 00:27:44|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "nums": 1,
+  "goods": 66
+}
+2022-12-19 00:27:44|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5ODU2NjIsImVtYWlsIjpudWxsfQ.9bktgjzm_2ZkbtWpJYAWErnhWffWpgoDFSLdhE__F10"
+}
+2022-12-19 00:27:44|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"nums": 1, "goods": 66}
+2022-12-19 00:27:44|INFO    |rest_client.py|codeLine:45  |log information:接口请求的地址>>>http://admin.5istudy.online/orders/
+2022-12-19 00:27:44|INFO    |rest_client.py|codeLine:46  |log information:接口请求的方法>>>POST
+2022-12-19 00:27:44|INFO    |rest_client.py|codeLine:50  |log information:接口请求的json参数>>>
+{
+  "post_script": "\u6d4b\u8bd5",
+  "order_mount": -100,
+  "address": "\u6211\u64e6",
+  "signer_name": null,
+  "singer_mobile": "15397919586"
+}
+2022-12-19 00:27:44|INFO    |rest_client.py|codeLine:54  |log information:接口请求的params参数>>>
+{
+  "Authorization": "JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxNjM0MjEsInVzZXJuYW1lIjoiMTUzOTc5MTk1ODYiLCJleHAiOjE2NzE5ODU2NjIsImVtYWlsIjpudWxsfQ.9bktgjzm_2ZkbtWpJYAWErnhWffWpgoDFSLdhE__F10"
+}
+2022-12-19 00:27:44|INFO    |response_util.py|codeLine:14  |log information:接口的返回内容>>>：{"signer_name": ["该字段不能为 null。"]}

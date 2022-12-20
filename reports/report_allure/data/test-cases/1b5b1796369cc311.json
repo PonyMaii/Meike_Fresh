@@ -1,0 +1,95 @@
+{
+  "uid" : "1b5b1796369cc311",
+  "name" : "注册手机号获取验证码",
+  "fullName" : "test_case.usercenter.test_user.TestUser#test_send_code",
+  "historyId" : "62174db1a0ac5ce645bdae1e4a71b9d3",
+  "time" : {
+    "start" : 1671380865086,
+    "stop" : 1671380865167,
+    "duration" : 81
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1671380861687,
+      "stop" : 1671380861871,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "32b789c27bb6cc97",
+      "name" : "stdout",
+      "source" : "32b789c27bb6cc97.txt",
+      "type" : "text/plain",
+      "size" : 505
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户中心模块"
+  }, {
+    "name" : "story",
+    "value" : "用户注册获取验证码"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.usercenter"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "xiaoma"
+  }, {
+    "name" : "thread",
+    "value" : "303052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.usercenter.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'mobile': '1539791958', 'expected': '手机号码非法'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1b5b1796369cc311.json",
+  "parameterValues" : [ "{'mobile': '1539791958', 'expected': '手机号码非法'}" ]
+}

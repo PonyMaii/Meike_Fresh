@@ -28,7 +28,8 @@ def add_address(data):
         "signer_mobile": data['signer_mobile'],
         "signer_name": data['signer_name']
     }
-    response = api_util.address_add(json=json_data, headers=get_headers())
+    headers = get_headers()
+    response = api_util.address_add(json=json_data, headers=headers)
     return process_response(response)
 
 def del_address(data):

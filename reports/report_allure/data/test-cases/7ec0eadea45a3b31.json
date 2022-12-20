@@ -1,0 +1,95 @@
+{
+  "uid" : "7ec0eadea45a3b31",
+  "name" : "用户手机登入",
+  "fullName" : "test_case.usercenter.test_user.TestUser#test_login",
+  "historyId" : "faad682dbbab1e849fec2b7363a1cd82",
+  "time" : {
+    "start" : 1671380867834,
+    "stop" : 1671380867893,
+    "duration" : 59
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1671380861687,
+      "stop" : 1671380861871,
+      "duration" : 184
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "bb4819c81a458b89",
+      "name" : "stdout",
+      "source" : "bb4819c81a458b89.txt",
+      "type" : "text/plain",
+      "size" : 532
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "用户中心模块"
+  }, {
+    "name" : "story",
+    "value" : "用户登入"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case.usercenter"
+  }, {
+    "name" : "suite",
+    "value" : "test_user"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestUser"
+  }, {
+    "name" : "host",
+    "value" : "xiaoma"
+  }, {
+    "name" : "thread",
+    "value" : "303052-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.usercenter.test_user"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "datas",
+    "value" : "{'username': None, 'password': 123456, 'expected': '该字段不能为 null。'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7ec0eadea45a3b31.json",
+  "parameterValues" : [ "{'username': None, 'password': 123456, 'expected': '该字段不能为 null。'}" ]
+}
